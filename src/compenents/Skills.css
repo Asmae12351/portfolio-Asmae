@@ -1,0 +1,263 @@
+/* General Styles */
+.skills {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.Frameworks {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.Frameworks h3 {
+    color: #b7937a;
+}
+.skills h2 {
+    text-align: center;
+    font-size: 35px;
+    color: #83604c;
+}
+
+.skill {
+    margin: 25px;
+    padding: 25px;
+}
+
+.skill h3 {
+    color: #b7937a;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 25px;
+    padding: 20px;
+}
+
+.cont {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+    animation: fly-in 1s ease-out, move-box 2s ease-in-out infinite;
+}
+
+.cont h4 i {
+    font-size: 40px;
+}
+
+.cont:hover {
+    border: 1px solid #b7937a;
+    transform: scale(1.1);
+    color: #745848;
+    box-shadow: 0 4px 8px rgba(116, 88, 72, 0.5);
+}
+
+.cont i:hover {
+    font-size: 40px;
+    color: #745848;
+}
+
+@keyframes fly-in {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(10px);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes move-box {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 1024px) {
+    .skills h2 {
+        font-size: 30px;
+    }
+
+    .skill {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .cont {
+        margin: 8px;
+        padding: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .skills h2 {
+        font-size: 28px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .cont {
+        margin: 10px;
+        padding: 20px;
+        border: 1px solid black;
+        border-radius: 50%;
+        width: 25%;
+        text-align: center;
+        transition: 0.3s ease-in-out;
+    }
+
+    .cont h4 i {
+        font-size: 40px;
+        display: block;
+    }
+
+    .cont:hover {
+        transform: scale(1.1);
+        box-shadow: 0 4px 8px rgba(116, 88, 72, 0.5);
+    }
+}
+
+@media (max-width: 425px) {
+    .skills h2 {
+        font-size: 24px;
+    }
+
+    .cont {
+        padding: 15px;
+        width: 100%; /* Full width */
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        justify-content: center;
+    }
+}
+
+@media (max-width: 375px) {
+    .skills h2 {
+        font-size: 22px;
+    }
+
+    .cont {
+        padding: 15px;
+        width: 100%; /* Full width */
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 320px) {
+    .skills h2 {
+        font-size: 22px;
+    }
+
+    .cont {
+        padding: 10px;
+        margin: 5px auto;
+        width: 100%; /* Full width */
+    }
+
+    .cont h4 i {
+        font-size: 35px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+/* Certificates Section */
+.certificats {
+    margin-top: 30px;
+}
+
+.certificats h3 {
+    font-size: 30px;
+    text-align: center;
+    color: #83604c;
+}
+
+.contcertificat {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.certificat {
+    text-align: center;
+    max-width: 450px;
+    padding: 15px;
+    border: 1px solid #b7937a;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(116, 88, 72, 0.2);
+    margin-right: 20px;
+}
+
+.certificat h4 {
+    color: #745848;
+}
+
+.certificat:last-child {
+    margin-right: 0;
+}
+
+.certificat img {
+    width: 100%;
+    max-width: 350px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+.view-certificat {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #83604c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.view-certificat:hover {
+    color: #b7937a;
+    text-decoration: none;
+}
+@media (max-width: 767px) {
+    .contcertificat {
+        display: block;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+
+    .certificat {
+        margin-bottom: 20px;
+       
+        width: 100%; 
+    }
+}

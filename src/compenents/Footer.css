@@ -1,0 +1,40 @@
+
+.footer {
+    background-color: #725544; /* Couleur de fond du footer */
+    color: black; /* Couleur du texte */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    margin-bottom: 15px;
+}
+
+.footer-content h5 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.footer-content p {
+    margin: 5px 0;
+    color: #ffffff;
+}
+/*  */
+
+.footer-bottom {
+    margin-top: 10px;
+    font-size: 14px;
+}
+.link{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.link:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer-bottom p{
+    color: white;
+}

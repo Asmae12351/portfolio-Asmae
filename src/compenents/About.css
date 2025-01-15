@@ -1,0 +1,87 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 35px;
+    border: 2px solid black;
+    border-radius: 23px;
+    width: 970px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+.about:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Added shadow for hover effect */
+}
+
+.about h2 {
+    font-size: 24px;
+    margin: 10px;
+}
+
+.about p {
+    font-size: 18px;
+    margin: 15px;
+    line-height: 1.6;
+}
+
+/* Responsive for tablets (max-width: 768px) */
+@media (max-width: 768px) {
+    .about {
+        width: 80%;
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+    .about h2 {
+        font-size: 20px;
+    }
+
+    .about p {
+        font-size: 16px;
+    }
+}
+
+/* Responsive for mobile phones (max-width: 480px) */
+@media (max-width: 480px) {
+    .about {
+        width: 90%;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .about h2 {
+        font-size: 18px;
+    }
+
+    .about p {
+        font-size: 14px;
+    }
+}
+
+/* Responsive for very small devices (max-width: 320px) */
+@media (max-width: 320px) {
+    .about {
+        width: 95%;
+        padding: 8px;
+        border-radius: 8px;
+        margin-top: 20px;
+    }
+
+    .about h2 {
+        font-size: 16px;
+        margin: 8px;
+    }
+
+    .about p {
+        font-size: 12px;
+        margin: 10px;
+        line-height: 1.4;
+    }
+}
