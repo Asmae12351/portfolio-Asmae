@@ -15,14 +15,14 @@ const Home=()=> {
     }, []);
     return (
         <section className="home" id="home">
-            <div className="home-content" data-aos="fade-up">
+            <div className="home-content" data-aos="fade-left">
                 <h1>Hi, It's <span>ASMAE</span></h1>
                 <h3 className="text-animation">I'm a <span className="auto-type"></span></h3>
                 <p>
                     With a strong foundation in front-end and back-end development, I create responsive, user-friendly websites using modern technologies like PHP, JavaScript, HTML, CSS, and Bootstrap. I love solving complex problems and building efficient digital solutions.<br/> <br/><span> Let’s work together to bring your ideas to life!</span>
                 </p>
                 <div className="social-icons">
-                    <a href="https://www.linkedin.com/in/asmae-el-haddouchi-a9a611301" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/asmae-elhaddouchi-a9a611301" target="_blank" rel="noopener noreferrer">
                         <i className="fa-brands fa-linkedin"></i>
                     </a>
                     <a href="https://github.com/Asmae12351/Asmae_Elhaddouchi/" target="_blank" rel="noopener noreferrer">
