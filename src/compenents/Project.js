@@ -2,6 +2,7 @@ import React from 'react'
 import icon from "./icon3.jpg"
  import './Project.css'
  import arinas from './ARINAS HOTEL.png'
+ import img from './img.jpg'
 const Project=()=> {
   return (
     <div>
@@ -18,6 +19,16 @@ const Project=()=> {
                     </p><br></br>
                     <img  src={icon}/>
                     <a href='https://github.com/Asmae12351/Para-pharmacie.git'><i class="fa-brands fa-github"></i> Code </a>
+                </div>
+                <div className='project'>
+                    <h4>My Portfolio</h4>
+                    <p>
+                    I designed and developed my personal portfolio to showcase my skills and projects. The portfolio features a sleek, responsive design with interactive elements to enhance user experience and ensure accessibility across all devices
+                    <br></br>
+                    Technologies used: HTML, CSS, JavaScript, Bootstrap,REACT JS 
+                    </p><br></br>
+                    <img  src={img}/>
+                    <a href='#home'>myportfolio </a>
                 </div>
 
 
