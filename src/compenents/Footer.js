@@ -14,7 +14,7 @@ function Footer() {
         <h5>Follow Us</h5>
         <div class="social-icons">
             <a href="https://www.instagram.com/asmae_.elhaddouchi/" ><i class="fa-brands fa-instagram"></i></a> 
-            <a href="https://github.com/Asmae12351/Asmae_Elhaddouchi/" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Asmae-elhadouchi" target="_blank" rel="noopener noreferrer">
                         <i className="fa-brands fa-github"></i>
                     </a>
             <a href="https://www.linkedin.com/in/asmae-el-haddouchi-a9a611301" target="_blank" rel="noopener noreferrer">

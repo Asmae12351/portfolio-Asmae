@@ -25,7 +25,7 @@ const Home=()=> {
                     <a href="https://www.linkedin.com/in/asmae-elhaddouchi-a9a611301" target="_blank" rel="noopener noreferrer">
                         <i className="fa-brands fa-linkedin"></i>
                     </a>
-                    <a href="https://github.com/Asmae12351/Asmae_Elhaddouchi/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/Asmae-elhadouchi" target="_blank" rel="noopener noreferrer">
                         <i className="fa-brands fa-github"></i>
                     </a>
                     <a href="https://www.instagram.com/asmae_.elhaddouchi/" target="_blank" rel="noopener noreferrer">

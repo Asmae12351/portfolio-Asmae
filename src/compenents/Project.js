@@ -18,7 +18,7 @@ const Project=()=> {
                     Technologies used: HTML, CSS, JavaScript, Bootstrap,PHP 
                     </p><br></br>
                     <img  src={icon}/>
-                    <a href='https://github.com/Asmae12351/Para-pharmacie.git'><i class="fa-brands fa-github"></i> Code </a>
+                    <a href='https://github.com/Asmae-elhadouchi/Para-pharmacie.git'><i class="fa-brands fa-github"></i> Code </a>
                 </div>
                 <div className='project'>
                     <h4>My Portfolio</h4>
@@ -41,7 +41,7 @@ const Project=()=> {
                     Technologies used: HTML, CSS, JavaScript, Bootstrap
                     </p>
                     <img  src={arinas}/>
-                    <a href='https://github.com/Asmae12351/Asmae-elhaddouchi.git'><i class="fa-brands fa-github"></i> Code </a>
+                    <a href='https://github.com/Asmae-elhadouchi/hotel.git'><i class="fa-brands fa-github"></i> Code </a>
                 </div>
             </div>
         </div>
